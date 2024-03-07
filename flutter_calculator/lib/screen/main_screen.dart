@@ -188,7 +188,7 @@ class MainScreen extends StatelessWidget {
                   style: GoogleFonts.ubuntu(
                       color:
                           themeController.isDark ? Colors.white : Colors.black,
-                      fontSize: 38),
+                      fontSize: 34),
                 ),
               ),
               Container(
@@ -198,7 +198,7 @@ class MainScreen extends StatelessWidget {
                   style: GoogleFonts.ubuntu(
                     fontWeight: FontWeight.bold,
                     color: themeController.isDark ? Colors.white : Colors.black,
-                    fontSize: 60,
+                    fontSize: 34,
                   ),
                 ),
               ),
